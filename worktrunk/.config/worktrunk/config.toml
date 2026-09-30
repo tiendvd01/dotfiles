@@ -1,0 +1,24 @@
+# ~/.config/worktrunk/config.toml
+#
+# Global Worktrunk defaults — applies to every project, TypeScript or not.
+# Keep this file to things that don't change per-repo. Anything specific to
+# one project (which .env files exist, npm vs pnpm, build commands, tests)
+# belongs in that project's own .config/wt.toml instead.
+
+[worktree]
+# Uncomment to prefix every new branch with your name, e.g. "alice/feature-x"
+# branch_prefix = "your-name/"
+
+# Where new worktrees live. Default is a sibling directory
+# ("myproject.feature-auth"); this keeps them inside the repo instead.
+worktree-path = "{{ repo_path }}/.worktrees/{{ branch | sanitize }}"
+
+# Generate commit messages with Claude via `wt step commit`
+[commit.generation]
+model = "claude-opus-4-5"
+provider = "anthropic"
+
+# Reusable shortcuts available in every project as `wt <name>`
+[aliases]
+# Open this worktree's dev server at its deterministic port
+open = "open http://localhost:{{ branch | hash_port }}"

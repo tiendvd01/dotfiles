@@ -96,6 +96,3 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export GTK_IM_MODULE=ibus
 export QT_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
-
-# Added by the Hunk installer (https://hunk.dev)
-export PATH='/home/tiendvd-iart/.hunk/bin':"$PATH"
