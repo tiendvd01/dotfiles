@@ -60,9 +60,12 @@ height = "90%"
 
 [experimental]
 pane_history = false
+allow_nested = true
 
 [ui]
 show_agent_labels_on_pane_borders = true
 
 [ui.toast]
 delivery = "terminal"
+
+
