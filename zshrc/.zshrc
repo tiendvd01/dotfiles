@@ -82,8 +82,8 @@ autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 
-# zoxide
-eval "$(zoxide init --cmd cd zsh)"
+# # zoxide
+# eval "$(zoxide init --cmd cd zsh)"
 
 # bun completions
 [ -s "/Users/tiendvd/.bun/_bun" ] && source "/Users/tiendvd/.bun/_bun"

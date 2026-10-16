@@ -21,3 +21,5 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.b.autoformat = true
   end,
 })
+
+vim.lsp.enable("nginx_language_server")
