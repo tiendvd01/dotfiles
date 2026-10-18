@@ -21,8 +21,6 @@ return {
       picker = {
         sources = {
           explorer = {
-            hidden = true, -- hiện file ẩn (dotfiles)
-            ignored = true, -- hiện cả file trong .gitignore
             exclude = { ".git", ".DS_Store" },
             layout = {
               layout = {
@@ -31,11 +29,9 @@ return {
             },
           },
           files = {
-            hidden = true, -- hiện file ẩn (dotfiles)
             exclude = { "node_modules", "dist", ".git", ".DS_Store" },
           },
           grep = {
-            hidden = true, -- hiện file ẩn (dotfiles)
             exclude = { "node_modules", "dist", ".git", ".DS_Store" },
           },
         },
