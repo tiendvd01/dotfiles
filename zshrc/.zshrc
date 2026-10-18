@@ -82,8 +82,8 @@ autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 
-# # zoxide
-# eval "$(zoxide init --cmd cd zsh)"
+# zoxide
+eval "$(zoxide init zsh)"
 
 # bun completions
 [ -s "/Users/tiendvd/.bun/_bun" ] && source "/Users/tiendvd/.bun/_bun"
@@ -91,8 +91,3 @@ compinit
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
-
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus

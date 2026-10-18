@@ -24,7 +24,7 @@ return {
             exclude = { ".git", ".DS_Store" },
             layout = {
               layout = {
-                position = "right",
+                position = "left",
               },
             },
           },
