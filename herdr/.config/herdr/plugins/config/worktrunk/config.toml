@@ -1,0 +1,6 @@
+# herdr-worktrunk plugin — re-read on every picker run
+open_mode = "workspace"
+slugify_new_branches = true
+picker_placement = "popup"
+popup_width = "70%"
+popup_height = "60%"

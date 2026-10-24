@@ -5,18 +5,24 @@
 # one project (which .env files exist, npm vs pnpm, build commands, tests)
 # belongs in that project's own .config/wt.toml instead.
 
-[worktree]
-# Uncomment to prefix every new branch with your name, e.g. "alice/feature-x"
-# branch_prefix = "your-name/"
-
-# Where new worktrees live. Default is a sibling directory
-# ("myproject.feature-auth"); this keeps them inside the repo instead.
-worktree-path = "{{ repo_path }}/.worktrees/{{ branch | sanitize }}"
+# Where new worktrees live — must be a top-level key (inside a [worktree]
+# table it is ignored). All worktrees go to ~/Documents/SoraTech as
+# "<repo>.<branch>", e.g. 168-yahagi-panwall.feature-823-plan-columns.
+worktree-path = "/Users/tiendvd/Documents/SoraTech/{{ repo }}.{{ branch | sanitize }}"
 
 # Generate commit messages with Claude via `wt step commit`
 [commit.generation]
 model = "claude-opus-4-5"
 provider = "anthropic"
+
+# Per-project hooks kept here so nothing is added to the repo; the logic
+# lives in scripts/168-yahagi-panwall.sh.
+# pre-start (blocking) so .env exists before an agent opens in the worktree.
+[projects."github-soratech/structuralengine/168-yahagi-panwall"]
+pre-start.env = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh env '{{ primary_worktree_path }}'"
+# Background so the worktree opens immediately; log: `wt config state logs`.
+post-start.frontend-deps = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh frontend-deps"
+post-start.backend-deps = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh backend-deps"
 
 # Reusable shortcuts available in every project as `wt <name>`
 [aliases]

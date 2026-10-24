@@ -10,4 +10,6 @@ data
 zed/.config/zed/prompts
 zshrc/.zshenv
 hunk/**/state.json
+hunk/**/config.json
 herdr/**/session.json
+worktrunk/.config/worktrunk/scripts

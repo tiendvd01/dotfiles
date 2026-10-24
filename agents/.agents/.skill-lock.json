@@ -135,6 +135,15 @@
       "skillFolderHash": "2be0d86d481d1bb29c62e11ef37b78d27d01b478",
       "installedAt": "2026-09-22T14:59:07.695Z",
       "updatedAt": "2026-10-15T15:46:09.294Z"
+    },
+    "hunk-review": {
+      "source": "modem-dev/hunk",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/modem-dev/hunk.git",
+      "skillPath": ".agents/skills/hunk-review/SKILL.md",
+      "skillFolderHash": "99d0edacc307b90046fd4e6f3c9c48ea1e499971",
+      "installedAt": "2026-10-18T17:09:28.329Z",
+      "updatedAt": "2026-10-18T17:09:51.701Z"
     }
   },
   "dismissed": {
