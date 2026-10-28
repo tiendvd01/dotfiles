@@ -1,0 +1,360 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "wZ",
+      "custom_name": "[1] 168-yahagi-panwall",
+      "identity_cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+      "worktree_space": {
+        "key": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/.git",
+        "label": "168-yahagi-panwall",
+        "repo_root": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+        "checkout_path": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+        "is_linked_worktree": false
+      },
+      "public_pane_numbers": {
+        "71": 41,
+        "5": 1,
+        "78": 48,
+        "73": 43,
+        "22": 24,
+        "72": 42
+      },
+      "next_public_pane_number": 51,
+      "public_tab_numbers": [
+        1,
+        27,
+        15,
+        24,
+        25
+      ],
+      "next_public_tab_number": 29,
+      "tabs": [
+        {
+          "custom_name": "[1] Danh sách vật kiện ở màn nào",
+          "layout": {
+            "Pane": 5
+          },
+          "panes": {
+            "5": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "7cb206ef-c73c-4afb-b1c1-fd708a965496"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        },
+        {
+          "custom_name": "[2] Skill sora:branch không tự",
+          "layout": {
+            "Pane": 78
+          },
+          "panes": {
+            "78": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "6d004120-dc1d-4721-b8fa-f7702a63c96d"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 78,
+          "root_pane": 78
+        },
+        {
+          "custom_name": "[3] zsh",
+          "layout": {
+            "Pane": 22
+          },
+          "panes": {
+            "22": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall"
+            }
+          },
+          "zoomed": false,
+          "focused": 22,
+          "root_pane": 22
+        },
+        {
+          "custom_name": "[4] backend › zsh",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 71
+              },
+              "second": {
+                "Pane": 72
+              }
+            }
+          },
+          "panes": {
+            "71": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/frontend"
+            },
+            "72": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/backend"
+            }
+          },
+          "zoomed": false,
+          "focused": 72,
+          "root_pane": 71
+        },
+        {
+          "custom_name": "[5] zsh",
+          "layout": {
+            "Pane": 73
+          },
+          "panes": {
+            "73": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall"
+            }
+          },
+          "zoomed": false,
+          "focused": 73,
+          "root_pane": 73
+        }
+      ],
+      "active_tab": 3
+    },
+    {
+      "id": "w14",
+      "custom_name": "[4] 168-mockup",
+      "identity_cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx/frontend",
+      "public_pane_numbers": {
+        "79": 2,
+        "87": 3,
+        "93": 4,
+        "38": 1
+      },
+      "next_public_pane_number": 5,
+      "public_tab_numbers": [
+        1,
+        2,
+        3
+      ],
+      "next_public_tab_number": 4,
+      "tabs": [
+        {
+          "custom_name": "[1] frontend › zsh",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 38
+              },
+              "second": {
+                "Pane": 79
+              }
+            }
+          },
+          "panes": {
+            "38": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx/frontend"
+            },
+            "79": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 79,
+          "root_pane": 38
+        },
+        {
+          "custom_name": "[2] 168-yahagi › Commit ghim của 168-yahagi",
+          "layout": {
+            "Pane": 87
+          },
+          "panes": {
+            "87": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "28ee8e55-f2ee-4370-a806-21dbec9286fc"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 87,
+          "root_pane": 87
+        },
+        {
+          "custom_name": "[3] worktrunk › Bước sao chép .env.local",
+          "layout": {
+            "Pane": 93
+          },
+          "panes": {
+            "93": {
+              "cwd": "/Users/tiendvd/.dotfiles/worktrunk/.config/worktrunk",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "c0643f0e-71a8-42d5-8037-98f31a4f898a"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 93,
+          "root_pane": 93
+        }
+      ],
+      "active_tab": 2
+    },
+    {
+      "id": "w19",
+      "custom_name": "[2] fix/998-match-malme-demo",
+      "identity_cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.fix-998-match-malme-demo",
+      "worktree_space": {
+        "key": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/.git",
+        "label": "168-yahagi-panwall",
+        "repo_root": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+        "checkout_path": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.fix-998-match-malme-demo",
+        "is_linked_worktree": true
+      },
+      "public_pane_numbers": {
+        "85": 3,
+        "83": 1,
+        "84": 2
+      },
+      "next_public_pane_number": 6,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 5,
+      "tabs": [
+        {
+          "custom_name": "[1] Skills đo và luồng delivery",
+          "layout": {
+            "Pane": 83
+          },
+          "panes": {
+            "83": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.fix-998-match-malme-demo",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "5f8562c3-37ad-435f-a687-45a0817e66df"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 83,
+          "root_pane": 83
+        },
+        {
+          "custom_name": "[2] backend › Cấu hình file .env backend",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 84
+              },
+              "second": {
+                "Pane": 85
+              }
+            }
+          },
+          "panes": {
+            "85": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.fix-998-match-malme-demo/backend",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "5e80d6ef-239a-4a63-bdd0-bad5e7a67914"
+              }
+            },
+            "84": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.fix-998-match-malme-demo/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 85,
+          "root_pane": 84
+        }
+      ],
+      "active_tab": 1
+    },
+    {
+      "id": "w1A",
+      "custom_name": "[3] feature/890-carryover-batch-dry-run",
+      "identity_cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.feature-890-carryover-batch-dry-run",
+      "worktree_space": {
+        "key": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/.git",
+        "label": "168-yahagi-panwall",
+        "repo_root": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+        "checkout_path": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.feature-890-carryover-batch-dry-run",
+        "is_linked_worktree": true
+      },
+      "public_pane_numbers": {
+        "90": 1,
+        "91": 2
+      },
+      "next_public_pane_number": 3,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": "[1] delivery https://github.com/",
+          "layout": {
+            "Pane": 90
+          },
+          "panes": {
+            "90": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.feature-890-carryover-batch-dry-run",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "72714949-c37e-4741-9ac6-e9992c48c50c"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 90,
+          "root_pane": 90
+        },
+        {
+          "custom_name": "[2] frontend › npm run dev --port 5",
+          "layout": {
+            "Pane": 91
+          },
+          "panes": {
+            "91": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall.feature-890-carryover-batch-dry-run/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 91,
+          "root_pane": 91
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 2,
+  "selected": 2,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

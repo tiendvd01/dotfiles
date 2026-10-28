@@ -8,7 +8,7 @@
 # Where new worktrees live — must be a top-level key (inside a [worktree]
 # table it is ignored). All worktrees go to ~/Documents/SoraTech as
 # "<repo>.<branch>", e.g. 168-yahagi-panwall.feature-823-plan-columns.
-worktree-path = "/Users/tiendvd/Documents/SoraTech/{{ repo }}.{{ branch | sanitize }}"
+worktree-path = "/Users/tiendvd/Documents/SoraTech/worktrees/{{ repo }}.{{ branch | sanitize }}"
 
 # Generate commit messages with Claude via `wt step commit`
 [commit.generation]
@@ -16,13 +16,15 @@ model = "claude-opus-4-5"
 provider = "anthropic"
 
 # Per-project hooks kept here so nothing is added to the repo; the logic
-# lives in scripts/168-yahagi-panwall.sh.
+# lives in scripts/168-yahagi-panwall.mjs.
 # pre-start (blocking) so .env exists before an agent opens in the worktree.
 [projects."github-soratech/structuralengine/168-yahagi-panwall"]
-pre-start.env = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh env '{{ primary_worktree_path }}'"
-# Background so the worktree opens immediately; log: `wt config state logs`.
-post-start.frontend-deps = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh frontend-deps"
-post-start.backend-deps = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh backend-deps"
+pre-start.env = "~/.config/worktrunk/scripts/168-yahagi-panwall.mjs env '{{ primary_worktree_path }}' '{{ branch | hash_port }}'"
+pre-start.guide = "~/.config/worktrunk/scripts/168-yahagi-panwall.mjs guide"
+# Background so the worktree opens immediately: waits for the herdr workspace,
+# then opens backend (uv sync, alembic upgrade heads, uvicorn) and frontend
+# (npm ci, vite) panes on the ports chosen in `env`. Log: `wt config state logs`.
+post-start.run = "~/.config/worktrunk/scripts/168-yahagi-panwall.mjs run"
 
 # Reusable shortcuts available in every project as `wt <name>`
 [aliases]

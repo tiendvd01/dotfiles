@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "wZ",
+      "custom_name": "[1] 168-yahagi-panwall",
+      "identity_cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+      "worktree_space": {
+        "key": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/.git",
+        "label": "168-yahagi-panwall",
+        "repo_root": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+        "checkout_path": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+        "is_linked_worktree": false
+      },
+      "public_pane_numbers": {
+        "71": 41,
+        "78": 48,
+        "72": 42,
+        "73": 43,
+        "22": 24,
+        "5": 1
+      },
+      "next_public_pane_number": 50,
+      "public_tab_numbers": [
+        1,
+        27,
+        15,
+        24,
+        25
+      ],
+      "next_public_tab_number": 29,
+      "tabs": [
+        {
+          "custom_name": "[1] Danh sách vật kiện ở màn nào",
+          "layout": {
+            "Pane": 5
+          },
+          "panes": {
+            "5": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "7cb206ef-c73c-4afb-b1c1-fd708a965496"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        },
+        {
+          "custom_name": "[2] Issue #730 168-yahagi-panwal",
+          "layout": {
+            "Pane": 78
+          },
+          "panes": {
+            "78": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall",
+              "agent_session": {
+                "source": "herdr:claude",
+                "agent": "claude",
+                "kind": "id",
+                "value": "63d04ad1-a4c2-48ea-a653-6082bacc6487"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 78,
+          "root_pane": 78
+        },
+        {
+          "custom_name": "[3] zsh",
+          "layout": {
+            "Pane": 22
+          },
+          "panes": {
+            "22": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall"
+            }
+          },
+          "zoomed": false,
+          "focused": 22,
+          "root_pane": 22
+        },
+        {
+          "custom_name": "[4] backend › uv",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 71
+              },
+              "second": {
+                "Pane": 72
+              }
+            }
+          },
+          "panes": {
+            "72": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/backend"
+            },
+            "71": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 72,
+          "root_pane": 71
+        },
+        {
+          "custom_name": "[5] zsh",
+          "layout": {
+            "Pane": 73
+          },
+          "panes": {
+            "73": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/168-yahagi-panwall"
+            }
+          },
+          "zoomed": false,
+          "focused": 73,
+          "root_pane": 73
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w14",
+      "custom_name": "[2] 168-mockup",
+      "identity_cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx/frontend",
+      "public_pane_numbers": {
+        "38": 1,
+        "79": 2
+      },
+      "next_public_pane_number": 3,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": "[1] frontend › zsh",
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 38
+              },
+              "second": {
+                "Pane": 79
+              }
+            }
+          },
+          "panes": {
+            "38": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx/frontend"
+            },
+            "79": {
+              "cwd": "/Users/tiendvd/Documents/SoraTech/mockup-ui/168-yahagi-pan-wall-dx/frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 79,
+          "root_pane": 38
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

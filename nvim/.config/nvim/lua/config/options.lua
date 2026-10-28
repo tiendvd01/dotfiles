@@ -4,6 +4,9 @@
 --
 vim.o.spell = false
 
+-- Ưu tiên root theo thư mục git, LSP chỉ là fallback, để mở file trong backend/ vẫn thấy cả repo
+vim.g.root_spec = { { ".git" }, "lsp", "cwd" }
+
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 

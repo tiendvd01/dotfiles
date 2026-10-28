@@ -4,3 +4,6 @@ slugify_new_branches = true
 picker_placement = "popup"
 popup_width = "70%"
 popup_height = "60%"
+
+# Giữ popup sau khi tạo worktree để đọc hướng dẫn từ hook `guide`
+hold_on_create = true

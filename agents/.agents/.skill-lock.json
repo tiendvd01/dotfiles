@@ -144,6 +144,26 @@
       "skillFolderHash": "99d0edacc307b90046fd4e6f3c9c48ea1e499971",
       "installedAt": "2026-10-18T17:09:28.329Z",
       "updatedAt": "2026-10-18T17:09:51.701Z"
+    },
+    "teach": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "skillFolderHash": "3fd617b610e59acbb99644de1ef37e394ff53cd1",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-27T16:09:27.930Z",
+      "updatedAt": "2026-10-27T16:09:27.930Z"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "skillFolderHash": "3df14e2d3a89459bf300614be9247e3ce74798f8",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-27T16:09:37.139Z",
+      "updatedAt": "2026-10-27T16:09:37.139Z"
     }
   },
   "dismissed": {
@@ -155,6 +175,7 @@
     "codex",
     "cursor",
     "droid",
+    "fx",
     "gemini-cli",
     "github-copilot",
     "kilo",

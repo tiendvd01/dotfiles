@@ -97,3 +97,7 @@ for _f in $HOME/.config/herdr/plugins/github-installations/herdr-automatic-renam
           $HOME/.config/herdr/plugins/github/herdr-automatic-rename-*/shell/hook.zsh(N); do
   source $_f; break
 done
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/tiendvd/.local/bin:$PATH"
