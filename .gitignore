@@ -13,3 +13,10 @@ hunk/**/state.json
 hunk/**/config.json
 herdr/**/session.json
 worktrunk/.config/worktrunk/scripts
+# herdr runtime state
+herdr/**/session-snapshots/
+herdr/**/herdr.sock*
+herdr/**/.plugins.lock
+herdr/**/plugins/.locks/
+herdr/**/plugins.json
+herdr/**/release-notes.json

@@ -16,15 +16,15 @@ model = "claude-opus-4-5"
 provider = "anthropic"
 
 # Per-project hooks kept here so nothing is added to the repo; the logic
-# lives in scripts/168-yahagi-panwall.mjs.
+# lives in scripts/168-yahagi-panwall.sh.
 # pre-start (blocking) so .env exists before an agent opens in the worktree.
+# One hook only: pre-start hooks run in parallel, so `env` prints the guide
+# itself once the ports are chosen (the herdr picker holds it on screen).
 [projects."github-soratech/structuralengine/168-yahagi-panwall"]
-pre-start.env = "~/.config/worktrunk/scripts/168-yahagi-panwall.mjs env '{{ primary_worktree_path }}' '{{ branch | hash_port }}'"
-pre-start.guide = "~/.config/worktrunk/scripts/168-yahagi-panwall.mjs guide"
-# Background so the worktree opens immediately: waits for the herdr workspace,
-# then opens backend (uv sync, alembic upgrade heads, uvicorn) and frontend
-# (npm ci, vite) panes on the ports chosen in `env`. Log: `wt config state logs`.
-post-start.run = "~/.config/worktrunk/scripts/168-yahagi-panwall.mjs run"
+pre-start.env = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh env '{{ primary_worktree_path }}' '{{ branch | hash_port }}'"
+# Background so the worktree opens immediately; installs backend (uv sync)
+# and frontend (npm ci on Node 24.16.0 from nvm). Log: `wt config state logs`.
+post-start.deps = "~/.config/worktrunk/scripts/168-yahagi-panwall.sh deps"
 
 # Reusable shortcuts available in every project as `wt <name>`
 [aliases]
