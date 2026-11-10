@@ -21,6 +21,7 @@ return {
       picker = {
         sources = {
           explorer = {
+            hidden = true,
             exclude = { ".git", ".DS_Store" },
             layout = {
               layout = {
@@ -29,9 +30,13 @@ return {
             },
           },
           files = {
+            hidden = true,
+            ignored = true,
             exclude = { "node_modules", "dist", ".git", ".DS_Store" },
           },
           grep = {
+            hidden = true,
+            ignored = true,
             exclude = { "node_modules", "dist", ".git", ".DS_Store" },
           },
         },

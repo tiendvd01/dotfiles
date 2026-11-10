@@ -1,132 +1,6 @@
 {
   "version": 3,
   "skills": {
-    "deep-agents-core": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/deep-agents-core/SKILL.md",
-      "skillFolderHash": "9e46674077d75bcdf5f0cf174357ac9024e744bb",
-      "installedAt": "2026-07-12T11:53:51.579Z",
-      "updatedAt": "2026-07-12T11:53:51.579Z"
-    },
-    "deep-agents-memory": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/deep-agents-memory/SKILL.md",
-      "skillFolderHash": "3b4f2f07c1ae04f68763c101844e704c5555381b",
-      "installedAt": "2026-07-12T11:53:51.583Z",
-      "updatedAt": "2026-07-12T11:53:51.583Z"
-    },
-    "deep-agents-orchestration": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/deep-agents-orchestration/SKILL.md",
-      "skillFolderHash": "3f34bdfaee45686ec98e8630c96ec02adfcde549",
-      "installedAt": "2026-07-12T11:53:51.583Z",
-      "updatedAt": "2026-07-12T11:53:51.583Z"
-    },
-    "ecosystem-primer": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/ecosystem-primer/SKILL.md",
-      "skillFolderHash": "c1fbd726bca5618f6ecd2759e4a444bed56e5823",
-      "installedAt": "2026-07-12T11:53:51.584Z",
-      "updatedAt": "2026-07-12T11:53:51.584Z"
-    },
-    "langchain-dependencies": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langchain-dependencies/SKILL.md",
-      "skillFolderHash": "ebdb8abc2c1ee9cea5da98f08043ce01e55a2b43",
-      "installedAt": "2026-07-12T11:53:51.584Z",
-      "updatedAt": "2026-07-12T11:53:51.584Z"
-    },
-    "langchain-fundamentals": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langchain-fundamentals/SKILL.md",
-      "skillFolderHash": "64d425535583b9bd96a434be24986bca192e45f6",
-      "installedAt": "2026-07-12T11:53:51.585Z",
-      "updatedAt": "2026-07-12T11:53:51.585Z"
-    },
-    "langchain-middleware": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langchain-middleware/SKILL.md",
-      "skillFolderHash": "fc36a1097394fb462a22d6f015450771a653b099",
-      "installedAt": "2026-07-12T11:53:51.586Z",
-      "updatedAt": "2026-07-12T11:53:51.586Z"
-    },
-    "langchain-rag": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langchain-rag/SKILL.md",
-      "skillFolderHash": "99d950a67fa1ec31321b9074dc208ab6cef35229",
-      "installedAt": "2026-07-12T11:53:51.586Z",
-      "updatedAt": "2026-07-12T11:53:51.586Z"
-    },
-    "langgraph-cli": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langgraph-cli/SKILL.md",
-      "skillFolderHash": "51f0eaa1322bf31014dab8de84084f2e5a28710d",
-      "installedAt": "2026-07-12T11:53:51.587Z",
-      "updatedAt": "2026-07-12T11:53:51.587Z"
-    },
-    "langgraph-fundamentals": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langgraph-fundamentals/SKILL.md",
-      "skillFolderHash": "aa046661cdbb0752743d797676e25c9a0401f7c0",
-      "installedAt": "2026-07-12T11:53:51.587Z",
-      "updatedAt": "2026-07-12T11:53:51.587Z"
-    },
-    "langgraph-human-in-the-loop": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langgraph-human-in-the-loop/SKILL.md",
-      "skillFolderHash": "b8ba56b3d8a2a148731c4ca136f4bdcbc4144dc5",
-      "installedAt": "2026-07-12T11:53:51.588Z",
-      "updatedAt": "2026-07-12T11:53:51.588Z"
-    },
-    "langgraph-persistence": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/langgraph-persistence/SKILL.md",
-      "skillFolderHash": "78329e3bc968c16282b186a265e04eaa01ca8fbd",
-      "installedAt": "2026-07-12T11:53:51.588Z",
-      "updatedAt": "2026-07-12T11:53:51.588Z"
-    },
-    "managed-deep-agents": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/managed-deep-agents/SKILL.md",
-      "skillFolderHash": "2fff74c06c7602b5794731d03631729477831bf7",
-      "installedAt": "2026-07-12T11:53:51.589Z",
-      "updatedAt": "2026-07-12T11:53:51.589Z"
-    },
-    "swarm": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
-      "skillPath": "config/skills/swarm/SKILL.md",
-      "skillFolderHash": "b950397a39b53a11fcce5fbd2160fbaaba951339",
-      "installedAt": "2026-07-12T11:53:51.589Z",
-      "updatedAt": "2026-07-12T11:53:51.589Z"
-    },
     "herdr": {
       "source": "ogulcancelik/herdr",
       "sourceType": "github",
@@ -164,6 +38,281 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-10-27T16:09:37.139Z",
       "updatedAt": "2026-10-27T16:09:37.139Z"
+    },
+    "herdr-core": {
+      "source": "herdrdev/herdr-core",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/herdrdev/herdr-core.git",
+      "skillPath": "skills/herdr-core/SKILL.md",
+      "skillFolderHash": "9691960a86a372aaa06eae674f93192b8e54cfad",
+      "installedAt": "2026-11-07T00:27:24.387Z",
+      "updatedAt": "2026-11-07T00:27:24.387Z"
+    },
+    "delivery-backlog": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "fe7a446dd54eaa63a0bfeedb8c7a1a2d9dee001e7aebfb0ea9cd4bfa499a2b6a",
+      "installedAt": "2026-11-07T03:15:19.655Z",
+      "updatedAt": "2026-11-07T03:15:19.655Z"
+    },
+    "delivery-board": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "e6923d1bc9f1fcf99284549740ed41dca1244e08047e6ef8e2eadc0b9b2a34e8",
+      "installedAt": "2026-11-07T03:15:19.657Z",
+      "updatedAt": "2026-11-07T03:15:19.657Z"
+    },
+    "delivery-dev": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "040ef4762cc9e8e07d705787f109d83354f25af47df7376cf7459a56d886eb09",
+      "installedAt": "2026-11-07T03:15:19.657Z",
+      "updatedAt": "2026-11-07T03:15:19.657Z"
+    },
+    "delivery-dev-classify": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "ad03fa654388f7c23c2c3d71d9550ed03a5f56d6be10478299839361f9aa94d4",
+      "installedAt": "2026-11-07T03:15:19.658Z",
+      "updatedAt": "2026-11-07T03:15:19.658Z"
+    },
+    "delivery-dev-commit": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "fa0ce3fda756711faabb61063c0ab4cefda583fff3f5933fb687780645ac78f1",
+      "installedAt": "2026-11-07T03:15:19.658Z",
+      "updatedAt": "2026-11-07T03:15:19.658Z"
+    },
+    "delivery-dev-context": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "56ea590ee04cc0c8cc8b117fb0c6f81e73ea814ffaafb7d43829b0a88f6c9481",
+      "installedAt": "2026-11-07T03:15:19.659Z",
+      "updatedAt": "2026-11-07T03:15:19.659Z"
+    },
+    "delivery-dev-followup": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "1ce7914059192e91f7612669d90a970965f34fdba561cfc3dd2b46ac8a49c0f0",
+      "installedAt": "2026-11-07T03:15:19.659Z",
+      "updatedAt": "2026-11-07T03:15:19.659Z"
+    },
+    "delivery-dev-implement": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "25ee1c26ca4e401c571727cc8bf30a9199b11ce5fc2f009ecbf5283b20bc728a",
+      "installedAt": "2026-11-07T03:15:19.659Z",
+      "updatedAt": "2026-11-07T03:15:19.659Z"
+    },
+    "delivery-dev-intake": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "59dc574bea9c370553176884961301928695fbfc59927c85c6aab4a6f7a3435d",
+      "installedAt": "2026-11-07T03:15:19.660Z",
+      "updatedAt": "2026-11-07T03:15:19.660Z"
+    },
+    "delivery-dev-investigate": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "48ada1ab45de55acded8627ed30962b96156e7c812fa8ed0d72a6c8ad522afff",
+      "installedAt": "2026-11-07T03:15:19.660Z",
+      "updatedAt": "2026-11-07T03:15:19.660Z"
+    },
+    "delivery-dev-learn": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "cc3f5387f3ee655f6c5d695d7b125a451b2baa85fa3ddcc7c5ab3318205e455a",
+      "installedAt": "2026-11-07T03:15:19.661Z",
+      "updatedAt": "2026-11-07T03:15:19.661Z"
+    },
+    "delivery-dev-open-pr": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "935e6162fe54ba8f515c92497de335677f2186fa097863b5e255cd95d28c2e5a",
+      "installedAt": "2026-11-07T03:15:19.661Z",
+      "updatedAt": "2026-11-07T03:15:19.661Z"
+    },
+    "delivery-dev-operate": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "4b93de37fb4a3f515fc2c62a97c17e826425ba78284a2aef28e97e2217210cc4",
+      "installedAt": "2026-11-07T03:15:19.661Z",
+      "updatedAt": "2026-11-07T03:15:19.661Z"
+    },
+    "delivery-dev-plan": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "7c8f292995569695cf1f338a00b3bfe8f916c87f538ca3822840228ad9272572",
+      "installedAt": "2026-11-07T03:15:19.662Z",
+      "updatedAt": "2026-11-07T03:15:19.662Z"
+    },
+    "delivery-dev-pr": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "f86e7108f19e16dc70c9c68b58a2a284e0f59d2b0bc7e60f8cdb0d85e08fa9b4",
+      "installedAt": "2026-11-07T03:15:19.662Z",
+      "updatedAt": "2026-11-07T03:15:19.662Z"
+    },
+    "delivery-dev-review": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "dd26e66eb9756dbbde72f35fee758f53b02b3eaeb27d03dd7c0bfad63801523d",
+      "installedAt": "2026-11-07T03:15:19.663Z",
+      "updatedAt": "2026-11-07T03:15:19.663Z"
+    },
+    "delivery-dev-solution": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "c3d2e36ed2b361478a249f30ffaf3b332562b32b5c0a7c201a742e4acd14d370",
+      "installedAt": "2026-11-07T03:15:19.664Z",
+      "updatedAt": "2026-11-07T03:15:19.664Z"
+    },
+    "delivery-dev-test": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "2d135a822f058bddf1a74cc64d91468787ae3f06b4334b4871784563085bfb13",
+      "installedAt": "2026-11-07T03:15:19.664Z",
+      "updatedAt": "2026-11-07T03:15:19.664Z"
+    },
+    "delivery-dev-understand": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "cf371e3d9e650e3a57571c3fbfbba3047e668397495345ce490969aadc5a23d7",
+      "installedAt": "2026-11-07T03:15:19.664Z",
+      "updatedAt": "2026-11-07T03:15:19.664Z"
+    },
+    "delivery-dev-verify": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "c6c74a966c36288160e14be907eac9787ceea7dcac61728fe8b7686c49581cde",
+      "installedAt": "2026-11-07T03:15:19.665Z",
+      "updatedAt": "2026-11-07T03:15:19.665Z"
+    },
+    "delivery-pr-review": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "cb327d3ba470d96aaa5c2ebee6d00492a127f1095ba1458a239af8a32c0f0ddb",
+      "installedAt": "2026-11-07T03:15:19.665Z",
+      "updatedAt": "2026-11-07T03:15:19.665Z"
+    },
+    "delivery-report": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "9dae7c5c57e4efa6b657d939d85c8246cf03e1c8df889192172c9cb43df96ea3",
+      "installedAt": "2026-11-07T03:15:19.666Z",
+      "updatedAt": "2026-11-07T03:15:19.666Z"
+    },
+    "delivery-runbook": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "669b17400384366586c09216604eb16d1e6e8baad87a95ea47598d2ab954f97f",
+      "installedAt": "2026-11-07T03:15:19.666Z",
+      "updatedAt": "2026-11-07T03:15:19.666Z"
+    },
+    "delivery-scope-review": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "96845b58c6e4dd8a169d9e6eb158cb38c6619071a77257ef1292989a5950ceec",
+      "installedAt": "2026-11-07T03:15:19.667Z",
+      "updatedAt": "2026-11-07T03:15:19.667Z"
+    },
+    "delivery-solution-review": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "a369364a0222530fb3dd22c56a82157583df76c11902fecb8696b6bc5935adb5",
+      "installedAt": "2026-11-07T03:15:19.667Z",
+      "updatedAt": "2026-11-07T03:15:19.667Z"
+    },
+    "delivery-spec-sync": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "df2be149232067288ce4847b1d14492ad75e4730c9f877fb3def299123dc7d5e",
+      "installedAt": "2026-11-07T03:15:19.668Z",
+      "updatedAt": "2026-11-07T03:15:19.668Z"
+    },
+    "delivery-start": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "3f9635018fc46d067e88294b6c79874af65b02803cb1e810e80ebfada33b266a",
+      "installedAt": "2026-11-07T03:15:19.669Z",
+      "updatedAt": "2026-11-07T03:15:19.669Z"
+    },
+    "delivery-ui-measure": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "fdc81e59e0d9660f513556b4429f1fa3ae3855e3a591f9fb9cb19cb2ef6cb72c",
+      "installedAt": "2026-11-07T03:15:19.669Z",
+      "updatedAt": "2026-11-07T03:15:19.669Z"
+    },
+    "delivery-write-issue": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "b4083687d7a7845e781ca93a89d6b5dbbd2eadb0b141902794ce3187c3a6c516",
+      "installedAt": "2026-11-07T03:15:19.670Z",
+      "updatedAt": "2026-11-07T03:15:19.670Z"
+    },
+    "find-mockup-repo": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "c8464d6ee6f006ca8734bc7d419289351e3d9ac05c3cd03ea14f5fb85ea9173a",
+      "installedAt": "2026-11-07T03:15:19.670Z",
+      "updatedAt": "2026-11-07T03:15:19.670Z"
+    },
+    "sora-profile": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "42224ac1291ad727f0df73dafe4f070acaac099d7b549ff59382cec937c93ef9",
+      "installedAt": "2026-11-07T03:15:19.671Z",
+      "updatedAt": "2026-11-07T03:15:19.671Z"
+    },
+    "translate-requirement": {
+      "source": "/Users/tiendvd/Documents/SoraTech/skills",
+      "sourceType": "local",
+      "sourceUrl": "/Users/tiendvd/Documents/SoraTech/skills",
+      "skillFolderHash": "69062279427c64052df155ba046e655d60801d3f475d7c95a1e7233b61c080f9",
+      "installedAt": "2026-11-07T03:15:19.671Z",
+      "updatedAt": "2026-11-07T03:15:19.671Z"
+    },
+    "archify": {
+      "source": "archify.si",
+      "sourceType": "well-known",
+      "sourceUrl": "https://archify.si/.well-known/agent-skills/archify.54ba0383833e094f3262e543ffb4e3b8426b611e5c0db024a5662b4cd5320577.zip",
+      "skillFolderHash": "",
+      "sourceBaseUrl": "https://archify.si",
+      "wellKnownDigest": "sha256:54ba0383833e094f3262e543ffb4e3b8426b611e5c0db024a5662b4cd5320577",
+      "installedAt": "2026-11-10T08:31:23.089Z",
+      "updatedAt": "2026-11-10T08:31:23.089Z"
     }
   },
   "dismissed": {

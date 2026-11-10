@@ -26,3 +26,22 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 vim.lsp.enable("nginx_language_server")
+
+-- Nhớ nền sáng/tối (<leader>ub) qua các lần mở nvim; lưu ở ~/.local/state/nvim/background
+local bg_file = vim.fn.stdpath("state") .. "/background"
+local ok, saved = pcall(vim.fn.readfile, bg_file)
+if ok and (saved[1] == "light" or saved[1] == "dark") then
+  vim.o.background = saved[1]
+end
+vim.api.nvim_create_autocmd("OptionSet", {
+  pattern = "background",
+  callback = function()
+    pcall(vim.fn.writefile, { vim.o.background }, bg_file)
+  end,
+})
+
+vim.lsp.config("pyright", {
+  settings = {
+    python = { pythonPath = ".venv/bin/python" },
+  },
+})
